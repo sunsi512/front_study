@@ -1,0 +1,66 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header, nav, section, article, aside, footer{
+    background-color: burlywood;
+    display: block;
+    margin: 3px;
+}
+
+nav{
+    background-color: yellow;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: red;
+    height: 100px;
+
+}
+
+#topMenu{
+    display: flex;
+    list-style: none;
+    background-color: skyblue;
+}
+
+#topMenu li {
+    background-color: aquamarine;
+    margin: 0px auto;
+    width: 70px;
+}
+
+#topMenu > li> ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+#topMenu > li:hover> ul{
+    display: block;
+}
+
+
+section{
+    width: 80%;
+}
+
+article{
+    width: 50%;
+    background-color: beige;
+}
+
+aside{
+    width: 20%;
+}
+ div{
+    display: flex;
+    height: 700px;
+ }
+ footer{
+    height : 100px;
+ }
+
