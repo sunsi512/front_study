@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            width: 960px;
+            margin: 0 auto;
+        }
+        .navi{
+            width: 960px;
+            height: 60px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        .navi ul{
+            list-style: none;
+            padding-top: 10px;
+            padding-bottom: 5px
+        }
+        .navi ul li{
+            display: inline-block;
+            width: 150px;
+            padding: 10px;
+        }
+        .navi a:hover, .navi a:focus{
+            background-color: #222;
+            color: #fff;
+        }
+        .navi a:active{
+            background-color: #f00;
+        }
+        .contents{
+            margin:30px auto;
+            width:400px;
+            padding:20px;
+            border:1px solid #222;
+            border-radius:5px;  
+        }
+        #intro:target{
+            background-color: #0069e0;
+            color: #fff;
+        }
+        #room:target{
+            background-color: #ff9804;
+        }
+        #reservation:target{
+            background-color: #fff8dc;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navi">
+            <ul>
+                <li><a href="#intro">이용 안내</a></li>
+                <li><a href="#room">객실 소개</a></li>
+                <li><a href="#reservation">예약 방법 및 요금</a></li>
+                <li><a href="booking02.html">예약하기</a></li>
+            </ul>
+        </nav>
+        
+        <div id="intro" class="contents">
+            <h2>이용 안내</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id dui id nibh malesuada dignissim
+                sit amet eget metus. Donec accumsan placerat euismod. In iaculis, turpis in tristique interdum, 
+                erat ante pellentesque dui, vel vulputate lorem nulla vel nunc. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia curae; Duis scelerisque, elit id lacinia condimentum,
+                eros est porta est, non bibendum ante lorem nec ligula. Nullam ut arcu nisl. Pellentesque tincidunt 
+                augue quam, a varius leo tempor sed. Nam congue interdum vulputate. Etiam elementum sagittis rhoncus.
+                Curabitur lectus ante, semper at mi sit amet, dictum ultricies felis. Suspendisse eget felis felis.</p>
+        </div>
+        <div id="room" class="contents">
+            <h2>객실 소개</h2>
+            <p>Praesent vulputate mollis egestas. Sed ultricies auctor malesuada. Vivamus maximus leo et tincidunt venenatis.
+                In pharetra suscipit diam, et mollis ipsum placerat eu. Cras ornare ornare mauris, non tincidunt nisi varius
+                quis. Mauris feugiat nunc nisi. Nullam at egestas neque, eget pretium velit. Phasellus vehicula id libero et
+                dictum. Donec efficitur in ligula scelerisque lobortis. Etiam in cursus eros. Ut maximus enim a urna laoreet,
+                id facilisis libero gravida. Vivamus cursus mauris id augue cursus pharetra. Cras sed est laoreet, dapibus dolor
+                ut, bibendum nunc. Integer porttitor ut lectus vitae lobortis.</p>
+        </div>
+        <div id="reservation" class="contents">
+            <h2>예약 방법 및 요금</h2>
+            <p>Curabitur porttitor non leo ac sagittis. Donec euismod vehicula faucibus. Pellentesque vitae purus porta, 
+                hendrerit orci et, fringilla odio. Suspendisse potenti. Duis facilisis nisi massa, sed tempor sapien finibus ut. 
+                Duis sit amet lectus ac mauris auctor feugiat at sed nulla. In id diam tincidunt, auctor odio sit amet, suscipit odio. 
+                Aenean eleifend tellus et facilisis dignissim. Pellentesque tristique maximus efficitur. Mauris vel pellentesque dolor. 
+                Phasellus non consectetur leo, sed bibendum tortor.</p>
+    </div>
+</body>
+</html>

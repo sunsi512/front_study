@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .formbox{
+        width: 400px;
+        height: 100px;
+        background-color: burlywood;
+    }
+    .formbox2{
+        width: 400px;
+        height: 100px;
+        background-color: silver;
+    }
+    </style>
+</head>
+<body>
+    <form class="formbox" action="/burl">
+        <input type="checkbox" id="fruitId1">
+        <label for="fruitId">apple</label>
+        
+        <input type="checkbox" id="fruitId2">
+        <label for="fruitId">orange</label>
+        
+        <input type="checkbox" id="fruitId3">
+        <label for="fruitId">banana</label><br><br>
+
+        <div style="text-align:center;"><input type="submit" value="전송"></div>
+    </form>
+<br>
+        <form class="formbox2" action="/aUrl">
+            <input type="radio" id="radio1" name="gender">
+            <label for="radio1">여성</label>
+            
+            <input type="radio" id="radio2" name="gender">
+            <label for="radio2">남성</label><br><br>
+            
+            <div style="text-align:center;"><input type="submit" value="확인"></div>
+        </form>
+</body>
+</html>
